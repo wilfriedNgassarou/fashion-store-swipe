@@ -37,15 +37,14 @@ export default function Button({ index, onChange, isLoading }: Props) {
           <span className="number">4</span>
           <span className="number">5</span>
           <span className="number">6</span>
-          <span className="number">7</span>
         </span>
       </span>
       <div className="arrows">
         <span onClick={handlePrev}>
-          <img src="/public/arrow/arrow-left.png" alt="" />
+          <img src="/public/arrow/left.png" alt="" />
         </span>
         <span onClick={handleNext}>
-          <img src="/public/arrow/arrow-right.png" alt="" />
+          <img src="/public/arrow/right.png" alt="" />
         </span>
       </div>
     </div>
