@@ -41,10 +41,10 @@ export default function Button({ index, onChange, isLoading }: Props) {
       </span>
       <div className="arrows">
         <span onClick={handlePrev}>
-          <img src="/public/arrow/left.png" alt="" />
+          <img src="/arrow/left.png" alt="" />
         </span>
         <span onClick={handleNext}>
-          <img src="/public/arrow/right.png" alt="" />
+          <img src="/arrow/right.png" alt="" />
         </span>
       </div>
     </div>

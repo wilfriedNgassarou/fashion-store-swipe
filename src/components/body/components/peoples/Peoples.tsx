@@ -29,7 +29,7 @@ export default function Peoples({ index, onChange, isLoading }: Props) {
               See more détails
             </span>
             <span>
-              <img src="/public/arrow/arrow-right.png" alt="" />
+              <img src="/arrow/right.png" alt="" />
             </span>
           </div>
         </div>
@@ -38,7 +38,7 @@ export default function Peoples({ index, onChange, isLoading }: Props) {
         className={`peoples active-${index} ${isLoading ? 'hide-peoples' : 'show-peoples'}`}
       >
         <div className="peoples-img-container">
-          <img src="/public/peoples/second/6.png" alt="" />
+          <img src="/peoples/second/6.png" alt="" />
         </div>
         <div className="peoples-img-container">
           <img onClick={() => onChange(4)} src="/peoples/principale/5.png" alt="" />
@@ -47,7 +47,7 @@ export default function Peoples({ index, onChange, isLoading }: Props) {
           <img onClick={() => onChange(3)} src="/peoples/principale/4.png" alt="" />
         </div>
         <div className="peoples-img-container">
-          <img src="/public/peoples/second/3.png" alt="" />
+          <img src="/peoples/second/3.png" alt="" />
         </div>
         <div className="peoples-img-container">
           <img onClick={() => onChange(1)} src="/peoples/principale/2.png" alt="" />
